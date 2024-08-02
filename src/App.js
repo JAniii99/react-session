@@ -1,24 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Skills from './component/about';
+import Button from './component/home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>Hello I'm Janitha Sandaruwnan</h1>
+     <h2>This is my portfolio</h2>
+     <h2>I Am,</h2>
+     <li>
+        <ul>Udergraduate</ul>
+        <ul>Frontend Developer</ul>
+        <ul></ul>
+     </li>
+     <Skills name="Arun" id = "131313"/>
+     <Button/>
+     <Skills name="Janitha" id="1356"/>
     </div>
+  
+
   );
 }
 
