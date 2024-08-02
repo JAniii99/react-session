@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useState } from 'react'; // Import useState from react
+
 
 const Skills = (props) => {
     const [Loggedin, setLoggedin] =useState(false);
 
     const login = () =>{
         setLoggedin(true);
-        console.log(Logged);
+        console.log('Logged');
     }
     const logout = () =>{
         setLoggedin(false);
-        console.log(Loggedout);
+        console.log('Loggedout');
     }
     return(
         <div>
